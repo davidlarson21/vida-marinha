@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+
+header .header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul a{
+    color: whitesmoke;
+    margin: 0 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    transition: 0.2s;
+    background-color: #00415752;
+    border-radius: 12px;
+    filter: brightness(1.5);
+}
+
+nav ul a:hover{
+    padding: 15px;
+    background-color: #004157cb;
+    transform: translateY(-1px);
+}
+
+header .header-content{
+    display: flex;
+    justify-content: center;
+}
+
+header .header img{
+    max-width: 100px;
+}
+
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1{
+    font-size: 96px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+header p{
+    font-size: 26px;
+    color: whitesmoke;
+    font-weight: 300;
+    margin: 18px 0;
+    padding-bottom: 110px;
+}
+
+header .banner-text{
+    margin: 130px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+/*CONTENT*/
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content h3{
+    color: #79b3a7;
+    font-size: 24px;
+}
+
+.content h2{
+    color: #00AAAA;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.content h1{
+    margin-bottom: 5px;
+    font-size: 42px;
+    color: #00546B;
+}
+
+.content section{
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content section p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.content section img{
+    margin-bottom: 15px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/*FOOTER*/
+
+footer{
+    padding: 30px;
+    background-color: #00546B;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+    color: whitesmoke;
+    font-weight: bold;
+}
